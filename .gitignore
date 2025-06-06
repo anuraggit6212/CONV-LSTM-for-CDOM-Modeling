@@ -1,0 +1,19 @@
+# Ignore Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Ignore data folders and typical large files
+data/
+*.nc
+*.npy
+*.h5
+*.hdf5
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore IDE/editor files
+*.swp
+*.vscode/
