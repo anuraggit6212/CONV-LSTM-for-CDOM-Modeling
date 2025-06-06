@@ -12,10 +12,6 @@ CONV-LSTM-for-CDOM-Modeling/
 ├── .gitignore
 ├── requirements.txt
 │
-├── data/
-│ ├── raw/ ← Place your EOS-06 NetCDF files here (ignored by Git)
-│ └── processed/ ← Intermediate .npy or monthly splits (ignored by Git)
-│
 ├── src/ ← Python scripts 
 │ ├── 1)cdom_derivation.py
 │ ├── 2)npy_gen_0.01.py
